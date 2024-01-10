@@ -1,0 +1,16 @@
+2024-01-10 18:44:37,816 - INFO - Starting up on 127.0.0.1 port 8800
+2024-01-10 18:44:52,476 - INFO - New connection, client1, from ('127.0.0.1', 30714)
+2024-01-10 18:44:56,508 - INFO - New connection, client2, from ('127.0.0.1', 30715)
+2024-01-10 18:44:59,447 - INFO - New connection, client3, from ('127.0.0.1', 30716)
+2024-01-10 18:45:05,992 - INFO - client1 broadcast a message to everyone: "client1: hello everyone!"
+2024-01-10 18:45:10,785 - INFO - client3 broadcast a message to everyone: "client3: hi there"
+2024-01-10 18:45:17,793 - INFO - client2 unicast a message to client3: "client2: /client3 how are you"
+2024-01-10 18:45:32,518 - INFO - client3 unicast a message to client2: "client3: /client2 I'm fine thanks"
+2024-01-10 18:45:42,625 - INFO - client2 requested a list of files in the download folder"
+2024-01-10 18:45:48,413 - INFO - client2 requested to download demofile.txt"
+2024-01-10 18:45:55,096 - INFO - client3 requested a list of files in the download folder"
+2024-01-10 18:46:01,560 - INFO - client3 was unable to download example_image.png"
+2024-01-10 18:46:11,378 - INFO - client1 requested to download demofile.txt"
+2024-01-10 18:46:20,828 - INFO - client2 has disconnected
+2024-01-10 18:46:26,955 - INFO - client1 has disconnected
+2024-01-10 18:46:32,261 - INFO - client3 has disconnected
